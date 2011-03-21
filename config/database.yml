@@ -1,0 +1,7 @@
+development_snp:
+  adapter: oracle_enhanced
+  database: snpt.world
+  username: 
+  password: 
+  host: localhost
+  port: 1524

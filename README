@@ -1,0 +1,10 @@
+This is a Sinatra application which will connnect to SNP and look up a users barcode
+To run it:
+export RAILS_ENV=development && ruby user_barcode.rb -p 3012
+
+To view it:
+http://localhost:3012
+
+To use it:
+http://localhost:3012/user_barcodes/lookup_user_login.xml?user_login=abc
+http://localhost:3012/user_barcodes/lookup_scanned_barcode.xml?barcode=12344567890
