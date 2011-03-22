@@ -1,4 +1,7 @@
-This is a Sinatra application which will connnect to SNP and look up a users barcode
+This is a Sinatra application which will connnect to SNP and look up a users barcode.
+Realistically this can only be used within the Wellcome Trust Sanger Institute, but it does provide
+a good example for integrating a Sinatra app with an Oracle database.
+
 To run it:
 export RAILS_ENV=development && ruby user_barcode.rb -p 3012
 
