@@ -15,6 +15,9 @@ GEM
       daemons (>= 1.0.3)
       fastthread (>= 1.0.1)
       gem_plugin (>= 0.2.3)
+    mongrel_cluster (1.0.5)
+      gem_plugin (>= 0.2.3)
+      mongrel (>= 1.0.2)
     mongrel_experimental (1.1)
       mongrel (= 1.1)
     rack (1.2.1)
@@ -28,6 +31,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord
   activerecord-oracle_enhanced-adapter (= 1.2.3)
+  mongrel_cluster
   mongrel_experimental
   ruby-oci8 (= 1.0.7)
   sinatra
