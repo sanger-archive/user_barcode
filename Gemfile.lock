@@ -20,6 +20,7 @@ GEM
       mongrel (>= 1.0.2)
     mongrel_experimental (1.1)
       mongrel (= 1.1)
+    mysql (2.8.1)
     rack (1.2.1)
     ruby-oci8 (1.0.7)
     sinatra (1.0)
@@ -33,5 +34,6 @@ DEPENDENCIES
   activerecord-oracle_enhanced-adapter (= 1.2.3)
   mongrel_cluster
   mongrel_experimental
+  mysql (~> 2.8.1)
   ruby-oci8 (= 1.0.7)
   sinatra
