@@ -1,7 +1,5 @@
-development_snp:
-  adapter: oracle_enhanced
-  database: snpt.world
-  username: 
-  password: 
-  host: localhost
-  port: 1524
+development:
+  adapter: mysql
+  user: root
+  password:
+  database: user_barcode_development
