@@ -23,7 +23,7 @@ GEM
       mongrel (= 1.1)
     mysql (2.8.1)
     rack (1.2.1)
-    ruby-oci8 (1.0.7)
+    ruby-oci8 (2.1.5)
     sinatra (1.0)
       rack (>= 1.0)
 
@@ -37,5 +37,5 @@ DEPENDENCIES
   mongrel_cluster
   mongrel_experimental
   mysql (~> 2.8.1)
-  ruby-oci8 (= 1.0.7)
+  ruby-oci8 (~> 2.1.0)
   sinatra

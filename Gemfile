@@ -12,5 +12,5 @@ group :deployment do
   gem "mongrel_experimental"
   gem "mongrel_cluster"
   gem "activerecord-oracle_enhanced-adapter", "1.2.3"
-  gem "ruby-oci8", "1.0.7" 
+  gem "ruby-oci8", "~> 2.1.0"
 end
